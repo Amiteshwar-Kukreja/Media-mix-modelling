@@ -1,4 +1,4 @@
-![MMM_Pic.pdf](https://github.com/Amiteshwar-Kukreja/Media-mix-modelling/files/10680085/MMM_Pic.pdf)
+!![mmm_picture](https://user-images.githubusercontent.com/84924789/217391752-f907e484-4a1c-41fd-bfda-2fe4de0d03e6.jpg)
 
 # Media-mix-modelling
 
