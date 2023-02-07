@@ -13,23 +13,17 @@ Companies spend significant budgets on different media such as TV, online, socia
 
 The model built here is based on two important and well documented effects of advertising:
 
-**Carryover**: Advertising can have an impact not just in the immediate advertising period (day/week), but in future as well. This results from the fact that many consumers may not immediately act on an advertising they have seen for reasons such as purchase cycles, decision making time, product distribution, inertia etc. The effect that advertising has in future time periods is known as the "carryover" effect of advertising.
-
+**Carryover**: Advertising can have an impact not just in the immediate advertising period (day/week), but in future as well. This results from the fact that many consumers may not immediately act on an advertising they have seen for reasons such as purchase cycles, decision making time, product distribution, inertia etc. The effect that advertising has in future time periods is known as the "carryover" effect of advertising.<br>
 **Saturation**: Saturation essentially implies that the impact of any advertising medium will tend to taper and ultimately plateau as more and more money is spent on that medium. Put another way, spending an infinite amount of money on advertising will not lead to infinite sales. 
-
-The model we will create here  can be mathematically represented as:
+The model we will create here  can be mathematically represented as: <br>
 
 ### &emsp;&emsp; $Y_{t} = Trend_{t} + Media Effect_{t} + \epsilon_{t}$
 
-where 
-
-$Y_{t}$ is the sales in time period (t).
-
-$Trend_{t}$ is the underlying sales trend in time period (t) i.e. sales that takes place without any marketing spend.
-
-$Media Effect_{t}$ is the amount of sales that can be attributed to the media spend. media_effect can be dervied for each medium separately.
-
-$\epsilon_{t}$ is the noise and accounts for the unexplained part of sales.
+where <br>
+$Y_{t}$ is the sales in time period (t) <br>
+$Trend_{t}$ is the underlying sales trend in time period (t) i.e. sales that takes place without any marketing spend <br>
+$Media Effect_{t}$ is the amount of sales that can be attributed to the media spend. media_effect can be dervied for each medium separately <br>
+$\epsilon_{t}$ is the noise and accounts for the unexplained part of sales <br>
 
 
 ## Dataset
