@@ -36,3 +36,5 @@ The dataset used in this project is a synthetic dataset sourced from Kaggle. It 
 5. An optimized linear regression model has good performance with $r^{2}$ = **0.916**. 
 6. The model was useful in understanding the Return on Ad Spend (ROAS) for each media as well.
     - Newspapers has the highest ROAS of **1.63**, followed by TV at **0.76** and finally radio at **0.70**. 
+
+[Notebook](media_mix_modelling_ver2.ipynb)
