@@ -24,15 +24,14 @@ $Media Effect_{t}$ is the amount of sales that can be attributed to the media sp
 $\epsilon_{t}$ is the noise and accounts for the unexplained part of sales <br>
 
 ### Dataset
-The dataset used in this project is a synthetic dataset that has around 4 years of weekly data on sales and spends across TV, radio and newspaper. 
+The dataset used in this project is a synthetic dataset that has around 4 years of weekly data on sales and spends across TV, radio and digital. 
 
 ### Key highlights of my project
 1. Python Tools: scipy.stats, sklearn, statsmodels, OptunaSearchCV, matplotlib
 2. Built classes for carryover (Geometric Decay function) and saturation effects (Hill function) of advertising
 3. Created a transformer for each media that incorporated a pipeline of the carryover and saturation effects
-4. Optimized the carryover and saturation parameters for each media using OptunasearchCV. The optimized parameters helped in understanding these characteristics of each media.
-5. An optimized linear regression model has good performance with $r^{2}$ = **0.916**. 
-6. The model was useful in understanding the Return on Ad Spend (ROAS) for each media as well.
-    - Newspapers has the highest ROAS of **1.63**, followed by TV at **0.76** and finally radio at **0.70**. 
+4. Built and optimized the carryover and saturation parameters for a linear regression model with $r^{2}$ = **0.916**.
+5. Derived the Return on Ad Spend (ROAS) for each media.  
+    - Digital had the highest ROAS of **1.63**, followed by TV at **0.76** and finally radio at **0.70**. 
 
 [Notebook](media_mix_modelling_ver2.ipynb)
