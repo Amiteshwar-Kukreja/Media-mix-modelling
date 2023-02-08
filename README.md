@@ -32,6 +32,6 @@ The dataset used in this project is a synthetic dataset that has around 4 years 
 3. Created a transformer for each media that incorporated a pipeline of the carryover and saturation effects
 4. Built and optimized the carryover and saturation parameters for a linear regression model with $r^{2}$ = **0.916**.
 5. Derived the Return on Ad Spend (ROAS) for each media.  
-    - Digital had the highest ROAS of **1.63**, followed by TV at **0.76** and finally radio at **0.70**. 
+    - Digital had the highest ROAS of **1.27**, followed by TV at **0.75** and finally radio at **0.71**. 
 
 [Notebook](media_mix_modelling_ver2.ipynb)
