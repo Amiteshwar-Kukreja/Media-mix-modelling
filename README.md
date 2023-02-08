@@ -24,7 +24,7 @@ $Media Effect_{t}$ is the amount of sales that can be attributed to the media sp
 $\epsilon_{t}$ is the noise and accounts for the unexplained part of sales <br>
 
 ### Dataset
-The dataset used in this project is a synthetic dataset that has around 4 years of weekly data on sales and spends across TV, radio and newspaper. 
+The dataset used in this project is a synthetic dataset that has around 4 years of weekly data on sales and spends across TV, radio and digital. 
 
 ### Key highlights of my project
 1. Python Tools: scipy.stats, sklearn, statsmodels, OptunaSearchCV, matplotlib
