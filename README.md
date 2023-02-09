@@ -34,5 +34,4 @@ The dataset used in this project is a synthetic dataset that has around 4 years 
 5. Derived the Return on Ad Spend (ROAS) for each media.  
     - Digital had the highest ROAS of **1.27**, followed by TV at **0.75** and finally radio at **0.71**. 
 
-### Documents
-[Notebook](media_mix_modelling_ver2.ipynb)
+### [Learn More](media_mix_modelling_ver2.ipynb)
